@@ -24,3 +24,6 @@ steps:
       ]
 images:
   - gcr.io/$flaskworldapp1-457119/$flaskworldapp1
+
+options:
+  logging: CLOUD_LOGGING_ONLY
