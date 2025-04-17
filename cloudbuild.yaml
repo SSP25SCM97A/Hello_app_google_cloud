@@ -12,7 +12,7 @@ steps:
       [
         "run",
         "deploy",
-        "$flaskworldapp1",
+        "flaskworldapp1",
         "--image",
         "gcr.io/flaskworldapp1-457119/flaskworldapp1",
         "--region",
